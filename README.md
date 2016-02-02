@@ -1,7 +1,7 @@
-## ThisScript
+# ThisScript
 Let's do this
 
-# Chapter 1 - Creating a new ThisScript file.
+## Chapter 1 - Creating a new ThisScript file.
 
 All ThisScript files must start exactly as follows:
 
@@ -21,7 +21,7 @@ var that = '';
 
 This does not do anything. Literally nothing. But if it is not present in the file, it will not compile.
 
-# Chapter 2 - Variables and Scope in ThisScript
+## Chapter 2 - Variables and Scope in ThisScript
 
-# Suggestions for future revisions
+## Suggestions for future revisions
 Make sure all ThisScript extensions are accessed through a $. Make sure it is fundamentally annoying to insert this into a site with jQuery.
