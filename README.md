@@ -7,14 +7,16 @@ All ThisScript files must start exactly as follows:
 
 ```javascript
 var that = '';
-(function(_this, _self){
-  that = _this || self || {};
+(function(_this){
+  that = _this || {};
   
   var self = new THIS.requires('this', function() {
     "use strict"; // this
     "use this"; // heh
+    
+    // do nothing lol
   }
-})('this', self);
+})('this');
 ```
 
 This does not do anything. Literally nothing. But if it is not present in the file, it will not compile.
